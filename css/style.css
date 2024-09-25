@@ -265,6 +265,10 @@ header ul li a {
 }
 
 /* *OPERATION SECTION */
+.operation-container {
+	margin-bottom: 250px;
+}
+
 .operation-container .cards-container {
 	flex-wrap: wrap;
 }
@@ -287,4 +291,154 @@ header ul li a {
 }
 .operation-container .cards-container .card {
 	border: none;
+}
+
+/* *OUR CLIENTS SECTION */
+.clients-container h2 {
+	font-size: 3rem;
+	margin-bottom: 50px;
+}
+
+.clients-container div a {
+	color: #0061ff;
+	text-decoration: underline;
+}
+
+.clients-container .more-clients-link {
+	margin-bottom: 150px;
+}
+
+.clients-logo-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.clients-logo-container .left-col {
+	width: calc(100% / 3);
+}
+.clients-logo-container .middle-col {
+	width: calc(100% / 3);
+	background-color: #f5f5f5;
+}
+.clients-logo-container .right-col {
+	width: calc(100vw / 3);
+}
+
+.clients-logo-container .left-col {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.clients-logo-container .left-col .logo {
+	width: 50%;
+	height: calc(100vw / 6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clients-logo-container .left-col .logo img {
+	width: 50%;
+}
+
+.clients-logo-container .right-col {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.clients-logo-container .right-col .logo {
+	width: 50%;
+	height: calc(100vw / 6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clients-logo-container .right-col .logo img {
+	width: 50%;
+}
+
+.square1 {
+	background-color: #a2d39b;
+	border: 20px solid #d1e9cd;
+}
+.square2 {
+	background-color: #61082b;
+}
+.square3 {
+	background-color: #0093ce;
+}
+.square4 {
+	background-color: #ff1c1c;
+}
+.square5 {
+	background-color: #d5001f;
+}
+.square6 {
+	background-color: #b4d0e7;
+}
+.square7 {
+	background-color: #0d2481;
+}
+.square8 {
+	background-color: #ffd830;
+}
+
+.middle-col {
+	padding: 50px;
+}
+
+.middle-col hr {
+	margin-block: 50px;
+	width: 30%;
+}
+
+.middle-col .cite {
+	margin-top: 40px;
+}
+
+/* *CLIENT CALL TO ACTION */
+.call-to-action-container {
+	background-color: lightblue;
+	color: rgb(84, 19, 48);
+}
+
+.call-to-action-container .container {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 100px;
+}
+
+.call-to-action-container .container h2 {
+	font-size: 3rem;
+}
+
+.call-to-action-container .container a {
+	background-color: white;
+	padding: 10px 30px;
+	color: black;
+	position: relative;
+	top: 25px;
+}
+
+/* ^FAQ */
+.faq-container {
+	margin-bottom: 500px;
+	margin-top: 200px;
+}
+
+.faq-question {
+	display: flex;
+	justify-content: space-between;
+	padding-right: 30px;
+	padding-block: 20px;
+}
+
+.faq-container h2 {
+	font-size: 2rem;
+	margin-bottom: 30px;
+}
+
+.faq-container span.question {
+	font-weight: 600;
 }
