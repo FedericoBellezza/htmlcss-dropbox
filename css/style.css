@@ -99,6 +99,8 @@ header ul li a {
 }
 
 /* *MAIN */
+
+/* *PLANS SECTION */
 .plans-container {
 	margin-top: 150px;
 }
@@ -108,22 +110,21 @@ header ul li a {
 	margin-bottom: 50px;
 }
 
-.plans-container span input {
-	margin-bottom: 50px;
-}
-
 .plans-container span {
 	margin-right: 40px;
 }
 
+/* *CARD */
 .cards-container {
 	display: flex;
 	justify-content: space-between;
+	gap: 40px;
 }
 
 .card {
-	width: 30%;
+	flex-grow: 1;
 	border: 1px solid lightgray;
+	margin-top: 40px;
 }
 
 .card-head {
@@ -139,7 +140,7 @@ header ul li a {
 }
 
 .card-body h3 {
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 }
 
 .card-body span.price {
@@ -217,4 +218,20 @@ header ul li a {
 	content: '\   ';
 	font-family: FontAwesome;
 	color: #0061ff;
+}
+
+/* *SEPARATED PLAN */
+.separated-plan .card-body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.separated-plan .left-col {
+	width: 70%;
+}
+
+.separated-plan .left-col .description {
+	font-size: 0.8rem;
+	margin-block: 30px;
 }
