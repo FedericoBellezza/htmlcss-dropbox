@@ -12,7 +12,7 @@
 .container {
 	margin: 0 auto;
 	padding: 0 10px;
-	width: 1000px;
+	width: 1200px;
 	max-width: 100%;
 }
 
@@ -56,4 +56,40 @@ header ul li a {
 .btn a {
 	background-color: #0061ff;
 	color: white;
+	padding: 6px 15px;
+}
+
+/* *HERO */
+.hero {
+	background-color: #b4d0e7;
+	padding-bottom: 20px;
+}
+
+.hero-col {
+	display: flex;
+}
+
+.hero h1 {
+	font-size: 5rem;
+	font-weight: 800;
+	padding: 40px 0px;
+}
+
+.hero .left-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 1.1rem;
+	margin-right: 20px;
+}
+
+.hero span i {
+	font-size: 4rem;
+}
+
+.hero .right-col img {
+	position: relative;
+	transform: scale(1.2);
+	top: 40px;
+	left: 50px;
 }
