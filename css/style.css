@@ -110,10 +110,28 @@ header ul li a {
 	margin-bottom: 50px;
 }
 
+input {
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px;
+
+	border-radius: 50%;
+	appearance: none;
+	border: 2px solid lightgray;
+}
+
+input:checked {
+	border: 6px solid #0061ff;
+}
+
 .plans-container span {
 	margin-right: 40px;
 }
-
+.plans-container .inputs-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
 /* *CARD */
 .cards-container {
 	display: flex;
@@ -259,9 +277,11 @@ header ul li a {
 	line-height: 1.4rem;
 }
 
-.partner-container .right-col .btn {
+.partner-container .right-col .btn a {
 	padding: 10px 20px;
 	border: 1px solid #121212;
+	background-color: transparent;
+	color: #121212;
 }
 
 /* *OPERATION SECTION */
@@ -399,8 +419,8 @@ header ul li a {
 
 /* *CLIENT CALL TO ACTION */
 .call-to-action-container {
-	background-color: lightblue;
-	color: rgb(84, 19, 48);
+	background-color: #b4d0e7;
+	color: #61082b;
 }
 
 .call-to-action-container .container {
