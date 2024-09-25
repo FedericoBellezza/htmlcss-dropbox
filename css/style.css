@@ -22,7 +22,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: #121212;
 }
 
 ul {
@@ -261,7 +261,7 @@ header ul li a {
 
 .partner-container .right-col .btn {
 	padding: 10px 20px;
-	border: 1px solid black;
+	border: 1px solid #121212;
 }
 
 /* *OPERATION SECTION */
@@ -416,14 +416,14 @@ header ul li a {
 .call-to-action-container .container a {
 	background-color: white;
 	padding: 10px 30px;
-	color: black;
+	color: #121212;
 	position: relative;
 	top: 25px;
 }
 
 /* ^FAQ */
 .faq-container {
-	margin-bottom: 500px;
+	margin-bottom: 150px;
 	margin-top: 200px;
 }
 
@@ -431,14 +431,56 @@ header ul li a {
 	display: flex;
 	justify-content: space-between;
 	padding-right: 30px;
-	padding-block: 20px;
+	padding-block: 40px;
 }
 
 .faq-container h2 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	margin-bottom: 30px;
 }
 
 .faq-container span.question {
 	font-weight: 600;
+}
+
+/* *FOOTER */
+footer .container {
+	width: 1200px;
+}
+
+footer .lists-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+footer {
+	background-color: #121212;
+	color: white;
+	padding-block: 50px;
+}
+
+footer h3 {
+	margin-bottom: 20px;
+	margin-top: 50px;
+	font-size: 1.5rem;
+}
+
+footer .list-container ul li {
+	margin-block: 10px;
+}
+
+footer ul li a {
+	color: white;
+}
+
+footer hr {
+	width: 10%;
+	margin-bottom: 50px;
+}
+
+footer .container span {
+	color: grey;
+	cursor: pointer;
+	word-spacing: 0.3rem;
 }
