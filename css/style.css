@@ -235,3 +235,31 @@ header ul li a {
 	font-size: 0.8rem;
 	margin-block: 30px;
 }
+
+/* *PARTNER */
+
+.partner-container {
+	margin-block: 150px;
+	display: flex;
+}
+
+.partner-container .left-col {
+	width: 70%;
+}
+
+.partner-container .right-col {
+	width: 40%;
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+.partner-container .right-col p {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	line-height: 1.4rem;
+}
+
+.partner-container .right-col .btn {
+	padding: 10px 20px;
+	border: 1px solid black;
+}
