@@ -1,12 +1,13 @@
-/* # RESET */
+/* *RESET */
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/* border: 1px dashed #292929; */
 }
 
-/* # UTILS */
+/* *UTILS */
 
 .container {
 	margin: 0 auto;
@@ -19,32 +20,40 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
-/* DEBUG */
-.debug {
-	background-color: #ddfcad;
-	border: 1px dashed black;
+a {
+	text-decoration: none;
+	color: black;
 }
 
-.debug .debug {
-	background-color: #c8e087;
+ul {
+	list-style: none;
 }
 
-.debug .debug .debug {
-	background-color: #95a472;
+img {
+	display: block;
+	max-width: 100%;
 }
 
-.debug .debug .debug .debug {
-	background-color: #82846d;
+/* *HEADER */
+header {
+	background-color: #ffffff;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+header ul li a {
+	padding: 5px 10px;
+}
+
+.btn a {
+	background-color: #0061ff;
 	color: white;
-}
-
-.debug .debug .debug .debug .debug {
-	background-color: #646165;
-}
-
-.debug .debug .debug .debug .debug .debug {
-	background-color: #454545;
-}
-.debug .debug .debug .debug .debug .debug .debug {
-	background-color: #292929;
 }
