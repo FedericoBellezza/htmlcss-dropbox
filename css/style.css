@@ -12,7 +12,7 @@
 .container {
 	margin: 0 auto;
 	padding: 0 10px;
-	width: 1200px;
+	width: 1000px;
 	max-width: 100%;
 }
 
@@ -37,7 +37,7 @@ img {
 /* *HEADER */
 header {
 	background-color: #ffffff;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -46,7 +46,7 @@ header ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 15px;
 }
 
 header ul li a {
@@ -60,6 +60,10 @@ header ul li a {
 }
 
 /* *HERO */
+.hero .container {
+	width: 1200px;
+}
+
 .hero {
 	background-color: #b4d0e7;
 	padding-bottom: 20px;
@@ -72,7 +76,7 @@ header ul li a {
 .hero h1 {
 	font-size: 5rem;
 	font-weight: 800;
-	padding: 40px 0px;
+	padding: 50px 0px 30px;
 }
 
 .hero .left-col {
@@ -92,4 +96,125 @@ header ul li a {
 	transform: scale(1.2);
 	top: 40px;
 	left: 50px;
+}
+
+/* *MAIN */
+.plans-container {
+	margin-top: 150px;
+}
+
+.plans-container h2 {
+	font-size: 2.5rem;
+	margin-bottom: 50px;
+}
+
+.plans-container span input {
+	margin-bottom: 50px;
+}
+
+.plans-container span {
+	margin-right: 40px;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	width: 30%;
+	border: 1px solid lightgray;
+}
+
+.card-head {
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px solid lightgray;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	padding: 30px 30px 0px;
+}
+
+.card-body h3 {
+	font-size: 1.3rem;
+}
+
+.card-body span.price {
+	font-weight: 700;
+	margin: 20px 0px 10px;
+	font-size: 0.9rem;
+}
+
+.card-body span.period {
+	color: gray;
+	font-size: 0.9rem;
+}
+
+.card-body ul.plan-advantages-list {
+	margin-block: 40px;
+}
+.card-body ul li {
+	margin-block: 10px;
+	font-size: 0.9rem;
+}
+
+.card-body .btn {
+	font-size: 0.9rem;
+	text-align: center;
+	background-color: #0061ff;
+	padding: 6px 15px;
+	margin-bottom: 20px;
+}
+
+.card-body .btn a {
+	padding: 0px;
+	background-color: transparent;
+}
+
+.card-body hr {
+	width: 30%;
+	margin-block: 30px;
+}
+
+.card-body span a.buy-now {
+	text-decoration: underline;
+	color: #0061ff;
+}
+
+.card-body span.highlights {
+	font-weight: 800;
+}
+
+.card-body ul.highlights-list {
+	margin-block: 20px;
+}
+
+.card-body ul {
+	margin-left: 15px;
+}
+
+.card-body ul li.user-icon::marker {
+	content: '\f007   ';
+	font-family: FontAwesome;
+}
+.card-body ul li.folder-icon::marker {
+	content: '\f07b   ';
+	font-family: FontAwesome;
+}
+.card-body ul li.share-icon::marker {
+	content: '\f1e0   ';
+	font-family: FontAwesome;
+}
+.card-body ul li.users-icon::marker {
+	content: '\f0c0   ';
+	font-family: FontAwesome;
+}
+
+.card-body ul.highlights-list li::marker {
+	content: '\   ';
+	font-family: FontAwesome;
+	color: #0061ff;
 }
