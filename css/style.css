@@ -236,7 +236,7 @@ header ul li a {
 	margin-block: 30px;
 }
 
-/* *PARTNER */
+/* *PARTNER SECTION */
 
 .partner-container {
 	margin-block: 150px;
@@ -262,4 +262,29 @@ header ul li a {
 .partner-container .right-col .btn {
 	padding: 10px 20px;
 	border: 1px solid black;
+}
+
+/* *OPERATION SECTION */
+.operation-container .cards-container {
+	flex-wrap: wrap;
+}
+
+.operation-container h2 {
+	font-size: 2.5rem;
+}
+
+.operation-container .card {
+	max-width: 30%;
+}
+
+.operation-container .card h3 {
+	font-size: 1.5rem;
+	margin-block: 20px;
+}
+
+.operation-container .card p {
+	font-size: 0.9rem;
+}
+.operation-container .cards-container .card {
+	border: none;
 }
